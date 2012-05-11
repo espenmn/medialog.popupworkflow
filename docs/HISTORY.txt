@@ -1,0 +1,44 @@
+Changelog
+==========
+
+
+0.7 (2011/07/08)
+__________________
+- Added a new *main template* so css and js loads (propely).
+- Changed the views to use this *main* template 
+- Added views for *Pageturner*, easyslider (a new one)
+- Added view for *Image*
+
+
+
+0.6
+__________________
+- Added more views (document, formgen, page)
+- Put a condition on js so it is possible to edit content
+- disabled *view* menu when content is in *popup state*, to prevent changing to a view that doesnt support pop-up
+
+
+0.5
+__________________
+- Skin register fixed
+- Works with maps, truegallery and collective.gallery
+- Workflow guard using getLayout instead of layout
+
+
+0.4
+------------------
+- Guard etc. updated
+- Javascript and placeit script OK
+
+
+0.3.0 (2010/08/16)
+------------------
+- Added view for Maps (location and Map view). You will need to customize this to use it (go to portal skins, popupworkflow and press customize on it)
+- Changed script so it doesn mess up with TinyMCE javascript
+- Guard on *Popup Publish* not on gallery, plonetrueallery, maps, location
+
+
+
+0.1.0 (2010/08/14)
+------------------
+- Initial release

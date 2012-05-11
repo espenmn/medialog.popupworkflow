@@ -1,0 +1,14 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="medialog.popupworkflow">
+
+    <!-- Activate popup javascript. Only when collective.prettyphoto is installed -->
+    <browser:resource
+        name="popupworkflow.js"
+        file="javascript/popupworkflow.js" />
+
+</configure>

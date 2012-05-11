@@ -1,0 +1,6 @@
+.svn
+Paste*
+*egg-info*
+.pyc
+.DS_Store
+*.pyc

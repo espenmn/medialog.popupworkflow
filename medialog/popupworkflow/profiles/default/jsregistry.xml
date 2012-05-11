@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<object name="portal_javascripts" meta_type="JavaScripts Registry">
+   <javascript cacheable="True"
+                compression="safe"
+                cookable="True"
+                enabled="True"
+                expression="portal/portal_membership/isAnonymousUser"
+                id="++resource++popupworkflow.js"
+                inline="False" />
+
+    <javascript cacheable="True"
+                compression="safe"
+                cookable="True"
+                enabled="False"
+                expression=""
+                id="prettyPhoto.js"
+                inline="False" />             
+                
+</object>

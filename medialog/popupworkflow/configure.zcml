@@ -1,0 +1,26 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="medialog.popupworkflow">
+
+    <five:registerPackage package="." initialize=".initialize" />
+    <include package=".browser" />
+    <include package="collective.prettyphoto" />
+    
+    <!-- File System Directory Views registration -->
+    <cmf:registerDirectory directory="skins/popupworkflow" name="popupworkflow"/>
+
+    <genericsetup:registerProfile
+      name="default"
+      title="Popup workflow for Plone 4.1, 4.2 etc"
+      directory="profiles/default"
+      description="Installs the medialog.popupworkflow package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  
+</configure>
