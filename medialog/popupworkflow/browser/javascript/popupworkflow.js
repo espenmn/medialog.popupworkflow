@@ -3,7 +3,7 @@ jq(document).ready(function(){
     jq(document).ready(function(){
         
         // this is so links open in parent window, not in the popup
-        jq(".pp_content_container a").attr("target", "_parent");   
+        jq("#pp_full_res a").attr("target", "_parent");   
 
         // add rel tag for all links with class 'prettyPhoto'
         jq("a.prettyPhoto").attr({"rel": "prettyPhoto"});
