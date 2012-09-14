@@ -5,6 +5,7 @@ Changelog
 __________________
 - added js for ".section.galleri"
 - added js for images
+- fixed settings so width of prettyphoto properties works
 
 
 4.1.3 (2012/09/14)
