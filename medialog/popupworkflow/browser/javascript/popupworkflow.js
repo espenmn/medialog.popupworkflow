@@ -7,7 +7,7 @@ $(document).ready(function(){
                 
                 // add iframe attributes for links for popupworkflow'
                 $(".state-popuppublished").attr("href", function() { 
-                    return this.href + "?ajax_load=1&ajax_include_head=1?iframe=true";
+                    return this.href + "?ajax_load=1&ajax_include_head=1?iframe=true&width=300px&height=500px";
                 }).attr({"rel": "prettyPhoto"});
 
                 // add rel tag for all links with class 'prettyPhoto'
@@ -34,7 +34,6 @@ $(document).ready(function(){
                     social_tools: false, /* html markup for social tool icons */
                     deeplinking: false, /* allow prettyphoto to rewrite url for direktlinking to an image */
                     markup: undefined,
-                    social_tools: false,
                 });
             });
         });
