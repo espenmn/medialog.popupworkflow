@@ -15,8 +15,8 @@ $(document).ready(function(){
                     return this.href + "?ajax_load=1&ajax_include_head=1?iframe=true&width=300px&height=500px";
                 }).attr({"rel": "prettyPhoto"});
 
-                // add rel tag for all links with class 'prettyPhoto'
-                $("a.prettyPhoto").attr({"rel": "prettyPhoto"});
+                // add rel tag for all links with class 'prettyPhoto' and images that are pop-up published
+                $("a.prettyPhoto, a.state-popuppublished.contenttype-image").attr({"rel": "prettyPhoto"});
 
                 // add iframe attributes for all links with class 'prettyPhotoIframe'
                 $("a.prettyPhotoIframe").attr("href", function() {

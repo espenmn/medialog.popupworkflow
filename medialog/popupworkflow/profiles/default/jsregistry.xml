@@ -5,7 +5,7 @@
                 cookable="True"
                 enabled="True"
                 expression="portal/portal_membership/isAnonymousUser"
-                id="++resource++popupworkflow.js"
+                id="popupworkflow.js"
                 inline="False" />
 
     <javascript cacheable="True"

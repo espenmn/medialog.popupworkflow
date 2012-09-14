@@ -7,8 +7,12 @@
     i18n_domain="medialog.popupworkflow">
 
     <!-- Activate popup javascript. Only when collective.prettyphoto is installed -->
-    <browser:resource
+    <browser:page
         name="popupworkflow.js"
-        file="javascript/popupworkflow.js" />
+        for="*"
+        class=".view.JavaScript"
+        permission="zope2.View"
+        layer="collective.prettyphoto.interfaces.IPrettyPhotoSpecific"
+    />
 
 </configure>
