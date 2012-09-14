@@ -41,12 +41,12 @@ class JavaScript(BrowserView):
                 
                 // add ajax attributes for links for popupworkflow'
                 $(".state-popuppublished").attr("href", function() { 
-                    return this.href + "?ajax_load=1&ajax_include_head=1?ajax=true?&width=%(iframe_width)s&height=%(iframe_height)s";
+                    return this.href + "?ajax_load=1&ajax_include_head=1&ajax=true&width=%(iframe_width)s&height=%(iframe_height)s";
                 }).attr({"rel": "prettyPhoto"});
                 
                 // add iframe attributes for links with name galleri'
                 $(".section-galleri .state-popuppublished").attr("href", function() { 
-                    return this.href + "?ajax_load=1&ajax_include_head=1?iframe=true&width=%(iframe_width)s&height=%(iframe_height)s";
+                    return this.href + "?ajax_load=1&ajax_include_head=1&iframe=true&width=%(iframe_width)s&height=%(iframe_height)s";
                 }).attr({"rel": "prettyPhoto"});
 
                 // enable prettyPhoto
