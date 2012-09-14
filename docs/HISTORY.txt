@@ -1,6 +1,12 @@
 Changelog
 ==========
 
+0.7 (2012/09/14)
+__________________
+- Most things have been changed, due to improvements in Plone >= 4.1.
+- All content types can have popup now, if they are supported by Prettyphoto.
+
+
 
 0.7 (2011/07/08)
 __________________

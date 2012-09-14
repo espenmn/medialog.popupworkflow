@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.8'
+version = '4.1'
 
 setup(name='medialog.popupworkflow',
       version=version,
-      description="A workflow with a state that opens documents in an overlay",
+      description="A workflow for Plone >= 4.1  with a state that opens documents in an overlay",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
