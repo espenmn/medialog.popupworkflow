@@ -5,8 +5,13 @@ $(document).ready(function(){
                 // this is so links open in parent window, not in the popup
                 $("#pp_full_res a").attr("target", "_parent");   
                 
-                // add iframe attributes for links for popupworkflow'
+                // add ajax attributes for links for popupworkflow'
                 $(".state-popuppublished").attr("href", function() { 
+                    return this.href + "?ajax_load=1&ajax_include_head=1?ajax=true=true&width=300px&height=500px";
+                }).attr({"rel": "prettyPhoto"});
+                
+                // add iframe attributes for links with name galleri'
+                $(".section-galleri .state-popuppublished").attr("href", function() { 
                     return this.href + "?ajax_load=1&ajax_include_head=1?iframe=true&width=300px&height=500px";
                 }).attr({"rel": "prettyPhoto"});
 
@@ -15,7 +20,7 @@ $(document).ready(function(){
 
                 // add iframe attributes for all links with class 'prettyPhotoIframe'
                 $("a.prettyPhotoIframe").attr("href", function() {
-                    return this.href + "?iframe=true&width=300px&height=300px";
+                    return this.href + "?iframe=true&width=300px&height=500px";
                 }).attr({"rel": "prettyPhoto"});
                 
 
