@@ -5,7 +5,7 @@ What is this?
 - When clicking on it in the navigation menu or wherever the state class  is shown (like in folder_listing, tableview, )
 - The popup effect is disabled when logged in (so its possible to *edit content the normal way*)
 
-Warning: Version 0.8 is for Plone 4.1, 4.2 etc ONLY. Use version 0.7 for Plone 4.0
+Warning: Version 4.1 is for Plone 4.1, 4.2 etc ONLY. Use version 0.7 for Plone 4.0
 
 
 How-to
