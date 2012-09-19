@@ -1,7 +1,12 @@
 Changelog
 ==========
 
-4.1.4 (unrelease)
+4.1.4 (2012/09/19)
+__________________
+- added option for modal (so only the close button closes the popup)
+
+
+4.1.4 (unreleased)
 __________________
 - added js for ".section.galleri"
 - added js for images
