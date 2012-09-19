@@ -55,6 +55,7 @@ class JavaScript(BrowserView):
                         show_title: %(show_title)s, /* true/false */
                         counter_separator_label: '%(counter_sep)s', /* The separator for the gallery counter 1 "of" 2 */
                         theme: '%(theme)s',
+                        modal: %(modal)s,
                         autoplay: %(autoplay)s, /* Automatically start videos: true/false */
                         autoplay_slideshow: %(autoplay_slideshow)s,
                         slideshow: %(slideshow)s, /* false OR interval time in ms */
@@ -77,6 +78,7 @@ class JavaScript(BrowserView):
                    overlay_gallery=getattr(self.prettyphoto_properties, 'overlay_gallery', False) and 'true' or 'false',
                    slideshow=slideshowInterval or 'false',
                    autoplay_slideshow=autoplaySlideshow  and 'true' or 'false',
+                   modal=(self.prettyphoto_properties, 'modal', 'false'),
                    social_tools=social_tools and "'%s'" % social_tools or 'false',
                    deeplinking=getattr(self.prettyphoto_properties, 'deeplinking', False) and 'true' or 'false',
                    markup=self.markup() or 'undefined',
