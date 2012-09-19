@@ -78,7 +78,7 @@ class JavaScript(BrowserView):
                    overlay_gallery=getattr(self.prettyphoto_properties, 'overlay_gallery', False) and 'true' or 'false',
                    slideshow=slideshowInterval or 'false',
                    autoplay_slideshow=autoplaySlideshow  and 'true' or 'false',
-                   modal=(self.prettyphoto_properties, 'modal', 'false'),
+                   modal=getattr(self.prettyphoto_properties, 'modal', 'false'),
                    social_tools=social_tools and "'%s'" % social_tools or 'false',
                    deeplinking=getattr(self.prettyphoto_properties, 'deeplinking', False) and 'true' or 'false',
                    markup=self.markup() or 'undefined',
