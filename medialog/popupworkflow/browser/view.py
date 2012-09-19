@@ -55,7 +55,7 @@ class JavaScript(BrowserView):
                         show_title: %(show_title)s, /* true/false */
                         counter_separator_label: '%(counter_sep)s', /* The separator for the gallery counter 1 "of" 2 */
                         theme: '%(theme)s',
-                        modal: %(modal)s,
+                        modal: %(modal)s, /* true/false */
                         autoplay: %(autoplay)s, /* Automatically start videos: true/false */
                         autoplay_slideshow: %(autoplay_slideshow)s,
                         slideshow: %(slideshow)s, /* false OR interval time in ms */
